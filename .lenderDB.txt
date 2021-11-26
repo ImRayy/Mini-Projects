@@ -1,0 +1,2 @@
+mate-{'that': 'ray', 'and': 'ray', 'this': 'ray'}
+linux-{'arch': 'ray', 'manjaro': 'ray', 'kde': 'ray', 'xfce': 'ray', 'lxqt': 'ray'}

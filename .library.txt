@@ -1,1 +1,2 @@
-ray linux arch-kde-manjaro-plasma
+ray-linux-['arch', 'debian', 'deepin', 'lxqt', 'manjaro', 'plasma', 'xfce']
+roshi-games-['coc', 'fortknite', 'pubg']

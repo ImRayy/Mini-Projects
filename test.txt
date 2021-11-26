@@ -1,1 +1,1 @@
-ray linux manjaro-arch-gnome-kde-plasma
+{'ray': 'good', 'chaser': 'toxic'}
