@@ -1,0 +1,10 @@
+# music
+
+Background music = Jeremy Blake - Powerup! ♫ NO COPYRIGHT 8-bit Music (https://www.youtube.com/watch?v=l7SwiFWOQqM&list=PLwJjxqYuirCLkq42mGw4XKGQlpZSfxsYd&index=5)
+Intro music = Kevin MacLeod - Itty Bitty 8 Bit ♫ NO COPYRIGHT 8-bit Music (https://www.youtube.com/watch?v=DzFXGsRvSwA&list=PLwJjxqYuirCLkq42mGw4XKGQlpZSfxsYd&index=12)
+
+# images
+
+apple, food, numbers, game over text, snake image used in game taken from flaticon (https://www.flaticon.com/ )
+
+into background taken from wallheaven (https://wallhaven.cc/)
