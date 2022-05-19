@@ -6,9 +6,12 @@
 ### phpmyadmin database
 For some tecnical resons I can't provide database export file right now, when I can I'll push ASAP
 
+
 **posts**
-![contacts](https://i.postimg.cc/28QxG2G0/anime-Otaku-posts.png)
+
+![posts](https://i.postimg.cc/28QxG2G0/anime-Otaku-posts.png)
 
 **contacts**
+
 ![contacts](https://i.postimg.cc/KjLNgyJ5/anime-Otaku-contacts.png)
 
