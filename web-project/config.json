@@ -1,0 +1,36 @@
+{
+    "layout.html": {
+        "navbar_branding": "Line no. 22 | I see no other way but hard coading it"
+    },
+    "home": {
+        "heading": "Anime Otaku",
+        "subheading": "Loved by Anime Lovers",
+        "number_of_posts": "3"
+    },
+    "about": {
+        "heading": "About Me",
+        "subheading": "This is what I do"
+    },
+    "post": {
+        "heading": "Man must watch Anime, and this is anime recomandation at it's greatest",
+        "subheading": "Problems look mighty small after watching 69+ animes"
+    },
+    "contact": {
+        "heading": "Contact Me!",
+        "subheading": "Have any questions? I have answers",
+        "mailid": "G-MAIL id",
+        "password": "__password__",
+        "sno": "0"
+    },
+    "loginpage": {
+        "_comment for usertype": "choose anything between phone, text or email",
+        "title": "Admin Signin",
+        "usertype": "text",
+        "boxText": "Enter Your User Name",
+        "cardImage": "someLink",
+        "backgroundColor": "##ecc1cf",
+        "brand": "__somelink__",
+        "admin_username": "__YourUserName__",
+        "admin_password": "__Password__"
+    }
+}

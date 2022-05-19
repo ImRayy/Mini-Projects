@@ -1,0 +1,131 @@
+{% extends "layout.html" %}
+<       {% block body %}
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('static/assets/img/home-bg.jpg')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="site-heading">
+                            <h1>{{home['heading']}}</h1>
+                            <span class="subheading">{{ home ['subheading']}}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+
+          <!-- image cards -->
+          <div>
+            <div class="container px-4 py-5" id="custom-cards">
+                <h2 class="pb-2 border-bottom">Trending This Week</h2>
+            
+                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                  <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('static/assets/img/image_1.jpg');">
+                      <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h2>
+                        <ul class="d-flex list-unstyled mt-auto">
+                          <li class="me-auto">
+                            <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                          </li>
+                          <li class="d-flex align-items-center me-3">
+                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                            <small>Earth</small>
+                          </li>
+                          <li class="d-flex align-items-center">
+                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                            <small>3d</small>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+            
+                  <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('static/assets/img/image2.jpg');">
+                      <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h2>
+                        <ul class="d-flex list-unstyled mt-auto">
+                          <li class="me-auto">
+                            <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                          </li>
+                          <li class="d-flex align-items-center me-3">
+                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                            <small>Pakistan</small>
+                          </li>
+                          <li class="d-flex align-items-center">
+                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                            <small>4d</small>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+            
+                  <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('static/assets/img/image3.jpg');">
+                      <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                        <div class="card-preview">
+                          <a href="/post/what-is-anime">
+                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h2>
+                          </a>
+                        </div>
+                        
+                        
+                        <ul class="d-flex list-unstyled mt-auto">
+                          <li class="me-auto">
+                            <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                          </li>
+                          <li class="d-flex align-items-center me-3">
+                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                            <small>California</small>
+                          </li>
+                          <li class="d-flex align-items-center">
+                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                            <small>5d</small>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+        </div>
+        
+
+        <!-- end image cards -->
+
+
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    
+                  {% for post in post_content %}
+                    <!-- normal post preview -->
+                    <div class="post-preview">
+                      <hr class="my-4" />
+                        <a href="/post/{{post.slug}}">
+                            <h2 class="post-title">{{post.title}}</h2>
+                            <h3 class="post-subtitle">We predict too much for the next year and yet far too little for the next ten.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!">Start Bootstrap</a>
+                            on August 24, 2022
+                        </p>
+                    </div>
+                    {% endfor %}
+                    <div class="d-flex mb-4 justify-content-end">
+                      <!-- <a class="btn btn-primary text-uppercase" href="{{prev}}">&larr; Previous Post</a><a class="btn btn-primary text-uppercase" href="{{next}}">Next Post &rarr;</a> -->
+                      <a href="{{prev}}"><button class="new-post">&larr; Previous</button></a><a href="{{next}}"><button class="logout">Next &rarr;</button></a>
+                      
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+         <!-- normal post preview -->
+        {% endblock %}
